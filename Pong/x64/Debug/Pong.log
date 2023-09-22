@@ -1,0 +1,12 @@
+﻿  Pong.cpp
+F:\RaylibProject\Pong\Pong.cpp(49,49): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+F:\RaylibProject\Pong\Pong.cpp(49,49): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+F:\RaylibProject\Pong\Pong.cpp(49,68): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+F:\RaylibProject\Pong\Pong.cpp(49,68): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+F:\RaylibProject\Pong\Pong.cpp(50,51): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+F:\RaylibProject\Pong\Pong.cpp(50,51): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+F:\RaylibProject\Pong\Pong.cpp(50,71): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+F:\RaylibProject\Pong\Pong.cpp(50,71): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+F:\RaylibProject\Pong\Pong.cpp(67,38): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+F:\RaylibProject\Pong\Pong.cpp(67,25): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Pong.vcxproj -> F:\RaylibProject\TemplateSolution\x64\Debug\Pong.lib
