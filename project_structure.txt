@@ -1,0 +1,1374 @@
+Folder PATH listing for volume SSD BIG ASS STORAGE
+Volume serial number is FCB6-FC87
+F:.
+|   .gitignore
+|   CMakeLists.txt
+|   project_structure.txt
+|   README.md
+|   
++---External
+|   |   README.md
+|   |   
+|   +---include
+|   |   |   Code_Utilities_Light_v2.h
+|   |   |   
+|   |   +---Core
+|   |   |   |   Core.vcxproj
+|   |   |   |   Core.vcxproj.filters
+|   |   |   |   Core.vcxproj.user
+|   |   |   |   Game.cpp
+|   |   |   |   Game.h
+|   |   |   |   GlobalsCore.h
+|   |   |   |   
+|   |   |   \---x64
+|   |   |       \---Debug
+|   |   |           |   Core.Build.CppClean.log
+|   |   |           |   Core.dll.recipe
+|   |   |           |   Core.lib.recipe
+|   |   |           |   Core.log
+|   |   |           |   Core.vcxproj.FileListAbsolute.txt
+|   |   |           |   Game.obj
+|   |   |           |   
+|   |   |           \---Core.tlog
+|   |   |                   CL.command.1.tlog
+|   |   |                   Cl.items.tlog
+|   |   |                   CL.read.1.tlog
+|   |   |                   CL.write.1.tlog
+|   |   |                   Core.lastbuildstate
+|   |   |                   Lib-link.read.1.tlog
+|   |   |                   Lib-link.write.1.tlog
+|   |   |                   Lib.command.1.tlog
+|   |   |                   
+|   |   \---raylib
+|   |       |   .gitignore
+|   |       |   BINDINGS.md
+|   |       |   build.zig
+|   |       |   CHANGELOG
+|   |       |   CMakeLists.txt
+|   |       |   CMakeOptions.txt
+|   |       |   CONTRIBUTING.md
+|   |       |   CONVENTIONS.md
+|   |       |   FAQ.md
+|   |       |   HISTORY.md
+|   |       |   LICENSE
+|   |       |   raylib.pc.in
+|   |       |   README.md
+|   |       |   ROADMAP.md
+|   |       |   
+|   |       +---cmake
+|   |       |       AddIfFlagCompiles.cmake
+|   |       |       BuildOptions.cmake
+|   |       |       CompileDefinitions.cmake
+|   |       |       CompilerFlags.cmake
+|   |       |       EnumOption.cmake
+|   |       |       GlfwImport.cmake
+|   |       |       InstallConfigurations.cmake
+|   |       |       JoinPaths.cmake
+|   |       |       LibraryConfigurations.cmake
+|   |       |       LibraryPathToLinkerFlags.cmake
+|   |       |       PackConfigurations.cmake
+|   |       |       PopulateConfigVariablesLocally.cmake
+|   |       |       raylib-config-version.cmake
+|   |       |       raylib-config.cmake
+|   |       |       
+|   |       +---examples
+|   |       |   |   build.zig
+|   |       |   |   CMakeLists.txt
+|   |       |   |   examples_template.c
+|   |       |   |   Makefile
+|   |       |   |   Makefile.Android
+|   |       |   |   Makefile.Web
+|   |       |   |   raylib_compile_execute.bat
+|   |       |   |   raylib_makefile_example.bat
+|   |       |   |   README.md
+|   |       |   |   
+|   |       |   +---audio
+|   |       |   |   |   audio_mixed_processor.c
+|   |       |   |   |   audio_mixed_processor.png
+|   |       |   |   |   audio_module_playing.c
+|   |       |   |   |   audio_module_playing.png
+|   |       |   |   |   audio_music_stream.c
+|   |       |   |   |   audio_music_stream.png
+|   |       |   |   |   audio_raw_stream.c
+|   |       |   |   |   audio_raw_stream.png
+|   |       |   |   |   audio_sound_loading.c
+|   |       |   |   |   audio_sound_loading.png
+|   |       |   |   |   audio_stream_effects.c
+|   |       |   |   |   audio_stream_effects.png
+|   |       |   |   |   
+|   |       |   |   \---resources
+|   |       |   |           coin.wav
+|   |       |   |           country.mp3
+|   |       |   |           LICENSE.md
+|   |       |   |           mini1111.xm
+|   |       |   |           sound.wav
+|   |       |   |           spring.wav
+|   |       |   |           target.flac
+|   |       |   |           target.ogg
+|   |       |   |           target.qoa
+|   |       |   |           weird.wav
+|   |       |   |           
+|   |       |   +---core
+|   |       |   |   |   core_2d_camera.c
+|   |       |   |   |   core_2d_camera.png
+|   |       |   |   |   core_2d_camera_mouse_zoom.c
+|   |       |   |   |   core_2d_camera_mouse_zoom.png
+|   |       |   |   |   core_2d_camera_platformer.c
+|   |       |   |   |   core_2d_camera_platformer.png
+|   |       |   |   |   core_2d_camera_smooth_pixelperfect.png
+|   |       |   |   |   core_3d_camera_first_person.c
+|   |       |   |   |   core_3d_camera_first_person.png
+|   |       |   |   |   core_3d_camera_free.c
+|   |       |   |   |   core_3d_camera_free.png
+|   |       |   |   |   core_3d_camera_mode.c
+|   |       |   |   |   core_3d_camera_mode.png
+|   |       |   |   |   core_3d_picking.c
+|   |       |   |   |   core_3d_picking.png
+|   |       |   |   |   core_basic_screen_manager.c
+|   |       |   |   |   core_basic_screen_manager.png
+|   |       |   |   |   core_basic_window.c
+|   |       |   |   |   core_basic_window.png
+|   |       |   |   |   core_basic_window_web.c
+|   |       |   |   |   core_custom_frame_control.c
+|   |       |   |   |   core_custom_frame_control.png
+|   |       |   |   |   core_custom_logging.c
+|   |       |   |   |   core_custom_logging.png
+|   |       |   |   |   core_drop_files.c
+|   |       |   |   |   core_drop_files.png
+|   |       |   |   |   core_input_gamepad.c
+|   |       |   |   |   core_input_gamepad.png
+|   |       |   |   |   core_input_gestures.c
+|   |       |   |   |   core_input_gestures.png
+|   |       |   |   |   core_input_keys.c
+|   |       |   |   |   core_input_keys.png
+|   |       |   |   |   core_input_mouse.c
+|   |       |   |   |   core_input_mouse.png
+|   |       |   |   |   core_input_mouse_wheel.c
+|   |       |   |   |   core_input_mouse_wheel.png
+|   |       |   |   |   core_input_multitouch.c
+|   |       |   |   |   core_input_multitouch.png
+|   |       |   |   |   core_loading_thread.c
+|   |       |   |   |   core_loading_thread.png
+|   |       |   |   |   core_random_values.c
+|   |       |   |   |   core_random_values.png
+|   |       |   |   |   core_scissor_test.c
+|   |       |   |   |   core_scissor_test.png
+|   |       |   |   |   core_smooth_pixelperfect.c
+|   |       |   |   |   core_smooth_pixelperfect.png
+|   |       |   |   |   core_split_screen.c
+|   |       |   |   |   core_split_screen.png
+|   |       |   |   |   core_storage_values.c
+|   |       |   |   |   core_storage_values.png
+|   |       |   |   |   core_vr_simulator.c
+|   |       |   |   |   core_vr_simulator.png
+|   |       |   |   |   core_window_flags.c
+|   |       |   |   |   core_window_flags.png
+|   |       |   |   |   core_window_letterbox.c
+|   |       |   |   |   core_window_letterbox.png
+|   |       |   |   |   core_window_should_close.c
+|   |       |   |   |   core_window_should_close.png
+|   |       |   |   |   core_world_screen.c
+|   |       |   |   |   core_world_screen.png
+|   |       |   |   |   
+|   |       |   |   \---resources
+|   |       |   |           distortion100.fs
+|   |       |   |           distortion330.fs
+|   |       |   |           LICENSE.md
+|   |       |   |           ps3.png
+|   |       |   |           xbox.png
+|   |       |   |           
+|   |       |   +---models
+|   |       |   |   |   models_animation.c
+|   |       |   |   |   models_animation.png
+|   |       |   |   |   models_billboard.c
+|   |       |   |   |   models_billboard.png
+|   |       |   |   |   models_box_collisions.c
+|   |       |   |   |   models_box_collisions.png
+|   |       |   |   |   models_cubicmap.c
+|   |       |   |   |   models_cubicmap.png
+|   |       |   |   |   models_draw_cube_texture.c
+|   |       |   |   |   models_draw_cube_texture.png
+|   |       |   |   |   models_first_person_maze.c
+|   |       |   |   |   models_first_person_maze.png
+|   |       |   |   |   models_geometric_shapes.c
+|   |       |   |   |   models_geometric_shapes.png
+|   |       |   |   |   models_heightmap.c
+|   |       |   |   |   models_heightmap.png
+|   |       |   |   |   models_loading.c
+|   |       |   |   |   models_loading.png
+|   |       |   |   |   models_loading_gltf.c
+|   |       |   |   |   models_loading_gltf.png
+|   |       |   |   |   models_loading_m3d.c
+|   |       |   |   |   models_loading_m3d.png
+|   |       |   |   |   models_loading_vox.c
+|   |       |   |   |   models_loading_vox.png
+|   |       |   |   |   models_mesh_generation.c
+|   |       |   |   |   models_mesh_generation.png
+|   |       |   |   |   models_mesh_picking.c
+|   |       |   |   |   models_mesh_picking.png
+|   |       |   |   |   models_orthographic_projection.c
+|   |       |   |   |   models_orthographic_projection.png
+|   |       |   |   |   models_rlgl_solar_system.c
+|   |       |   |   |   models_rlgl_solar_system.png
+|   |       |   |   |   models_skybox.c
+|   |       |   |   |   models_skybox.png
+|   |       |   |   |   models_waving_cubes.c
+|   |       |   |   |   models_waving_cubes.png
+|   |       |   |   |   models_yaw_pitch_roll.c
+|   |       |   |   |   models_yaw_pitch_roll.png
+|   |       |   |   |   
+|   |       |   |   \---resources
+|   |       |   |       |   billboard.png
+|   |       |   |       |   cubicmap.png
+|   |       |   |       |   cubicmap_atlas.png
+|   |       |   |       |   dresden_square_1k.hdr
+|   |       |   |       |   dresden_square_2k.hdr
+|   |       |   |       |   heightmap.png
+|   |       |   |       |   LICENSE.md
+|   |       |   |       |   skybox.png
+|   |       |   |       |   
+|   |       |   |       +---models
+|   |       |   |       |   +---gltf
+|   |       |   |       |   |       LICENSE
+|   |       |   |       |   |       raylib_logo_3d.glb
+|   |       |   |       |   |       robot.blend
+|   |       |   |       |   |       robot.glb
+|   |       |   |       |   |       
+|   |       |   |       |   +---iqm
+|   |       |   |       |   |       guy.blend
+|   |       |   |       |   |       guy.iqm
+|   |       |   |       |   |       guyanim.iqm
+|   |       |   |       |   |       guytex.png
+|   |       |   |       |   |       
+|   |       |   |       |   +---m3d
+|   |       |   |       |   |       cesium_man.m3d
+|   |       |   |       |   |       seagull.m3d
+|   |       |   |       |   |       suzanne.m3d
+|   |       |   |       |   |       
+|   |       |   |       |   +---obj
+|   |       |   |       |   |       bridge.obj
+|   |       |   |       |   |       bridge_diffuse.png
+|   |       |   |       |   |       castle.obj
+|   |       |   |       |   |       castle_diffuse.png
+|   |       |   |       |   |       cube.obj
+|   |       |   |       |   |       cube_diffuse.png
+|   |       |   |       |   |       house.obj
+|   |       |   |       |   |       house_diffuse.png
+|   |       |   |       |   |       market.obj
+|   |       |   |       |   |       market_diffuse.png
+|   |       |   |       |   |       plane.obj
+|   |       |   |       |   |       plane_diffuse.png
+|   |       |   |       |   |       turret.obj
+|   |       |   |       |   |       turret_diffuse.png
+|   |       |   |       |   |       well.obj
+|   |       |   |       |   |       well_diffuse.png
+|   |       |   |       |   |       
+|   |       |   |       |   \---vox
+|   |       |   |       |           chr_knight.vox
+|   |       |   |       |           chr_sword.vox
+|   |       |   |       |           LICENSE
+|   |       |   |       |           monu9.vox
+|   |       |   |       |           
+|   |       |   |       \---shaders
+|   |       |   |           +---glsl100
+|   |       |   |           |       cubemap.fs
+|   |       |   |           |       cubemap.vs
+|   |       |   |           |       skybox.fs
+|   |       |   |           |       skybox.vs
+|   |       |   |           |       
+|   |       |   |           \---glsl330
+|   |       |   |                   cubemap.fs
+|   |       |   |                   cubemap.vs
+|   |       |   |                   skybox.fs
+|   |       |   |                   skybox.vs
+|   |       |   |                   
+|   |       |   +---others
+|   |       |   |   |   easings_testbed.c
+|   |       |   |   |   easings_testbed.png
+|   |       |   |   |   embedded_files_loading.c
+|   |       |   |   |   embedded_files_loading.png
+|   |       |   |   |   raylib_opengl_interop.c
+|   |       |   |   |   raylib_opengl_interop.png
+|   |       |   |   |   reasings.h
+|   |       |   |   |   rlgl_compute_shader.c
+|   |       |   |   |   rlgl_compute_shader.png
+|   |       |   |   |   rlgl_standalone.c
+|   |       |   |   |   rlgl_standalone.png
+|   |       |   |   |   
+|   |       |   |   +---external
+|   |       |   |   |   +---include
+|   |       |   |   |   |   |   glad.h
+|   |       |   |   |   |   |   glad_gles2.h
+|   |       |   |   |   |   |   
+|   |       |   |   |   |   \---GLFW
+|   |       |   |   |   |           glfw3.h
+|   |       |   |   |   |           glfw3native.h
+|   |       |   |   |   |           
+|   |       |   |   |   \---lib
+|   |       |   |   |           libglfw3.a
+|   |       |   |   |           
+|   |       |   |   \---resources
+|   |       |   |       |   audio_data.h
+|   |       |   |       |   image_data.h
+|   |       |   |       |   
+|   |       |   |       \---shaders
+|   |       |   |           +---glsl100
+|   |       |   |           |       point_particle.fs
+|   |       |   |           |       point_particle.vs
+|   |       |   |           |       
+|   |       |   |           +---glsl330
+|   |       |   |           |       point_particle.fs
+|   |       |   |           |       point_particle.vs
+|   |       |   |           |       
+|   |       |   |           \---glsl430
+|   |       |   |                   gol.glsl
+|   |       |   |                   gol_render.glsl
+|   |       |   |                   gol_transfert.glsl
+|   |       |   |                   
+|   |       |   +---shaders
+|   |       |   |   |   rlights.h
+|   |       |   |   |   shaders_basic_lighting.c
+|   |       |   |   |   shaders_basic_lighting.png
+|   |       |   |   |   shaders_custom_uniform.c
+|   |       |   |   |   shaders_custom_uniform.png
+|   |       |   |   |   shaders_eratosthenes.c
+|   |       |   |   |   shaders_eratosthenes.png
+|   |       |   |   |   shaders_fog.c
+|   |       |   |   |   shaders_fog.png
+|   |       |   |   |   shaders_hot_reloading.c
+|   |       |   |   |   shaders_hot_reloading.png
+|   |       |   |   |   shaders_hybrid_render.c
+|   |       |   |   |   shaders_hybrid_render.png
+|   |       |   |   |   shaders_julia_set.c
+|   |       |   |   |   shaders_julia_set.png
+|   |       |   |   |   shaders_mesh_instancing.c
+|   |       |   |   |   shaders_mesh_instancing.data
+|   |       |   |   |   shaders_mesh_instancing.html
+|   |       |   |   |   shaders_mesh_instancing.js
+|   |       |   |   |   shaders_mesh_instancing.png
+|   |       |   |   |   shaders_mesh_instancing.wasm
+|   |       |   |   |   shaders_model_shader.c
+|   |       |   |   |   shaders_model_shader.png
+|   |       |   |   |   shaders_multi_sample2d.c
+|   |       |   |   |   shaders_multi_sample2d.png
+|   |       |   |   |   shaders_palette_switch.c
+|   |       |   |   |   shaders_palette_switch.png
+|   |       |   |   |   shaders_postprocessing.c
+|   |       |   |   |   shaders_postprocessing.png
+|   |       |   |   |   shaders_raymarching.c
+|   |       |   |   |   shaders_raymarching.png
+|   |       |   |   |   shaders_shapes_textures.c
+|   |       |   |   |   shaders_shapes_textures.png
+|   |       |   |   |   shaders_simple_mask.c
+|   |       |   |   |   shaders_simple_mask.png
+|   |       |   |   |   shaders_spotlight.c
+|   |       |   |   |   shaders_spotlight.png
+|   |       |   |   |   shaders_texture_drawing.c
+|   |       |   |   |   shaders_texture_drawing.png
+|   |       |   |   |   shaders_texture_outline.c
+|   |       |   |   |   shaders_texture_outline.png
+|   |       |   |   |   shaders_texture_waves.c
+|   |       |   |   |   shaders_texture_waves.png
+|   |       |   |   |   shaders_write_depth.c
+|   |       |   |   |   shaders_write_depth.png
+|   |       |   |   |   
+|   |       |   |   \---resources
+|   |       |   |       |   fudesumi.png
+|   |       |   |       |   LICENSE.md
+|   |       |   |       |   mask.png
+|   |       |   |       |   plasma.png
+|   |       |   |       |   raysan.png
+|   |       |   |       |   space.png
+|   |       |   |       |   texel_checker.png
+|   |       |   |       |   
+|   |       |   |       +---models
+|   |       |   |       |       barracks.obj
+|   |       |   |       |       barracks_diffuse.png
+|   |       |   |       |       church.obj
+|   |       |   |       |       church_diffuse.png
+|   |       |   |       |       watermill.obj
+|   |       |   |       |       watermill_diffuse.png
+|   |       |   |       |       
+|   |       |   |       \---shaders
+|   |       |   |           +---glsl100
+|   |       |   |           |       base.fs
+|   |       |   |           |       base.vs
+|   |       |   |           |       bloom.fs
+|   |       |   |           |       blur.fs
+|   |       |   |           |       color_mix.fs
+|   |       |   |           |       cross_hatching.fs
+|   |       |   |           |       cross_stitching.fs
+|   |       |   |           |       cubes_panning.fs
+|   |       |   |           |       depth.fs
+|   |       |   |           |       distortion.fs
+|   |       |   |           |       dream_vision.fs
+|   |       |   |           |       eratosthenes.fs
+|   |       |   |           |       fisheye.fs
+|   |       |   |           |       fog.fs
+|   |       |   |           |       grayscale.fs
+|   |       |   |           |       hybrid_raster.fs
+|   |       |   |           |       hybrid_raymarch.fs
+|   |       |   |           |       julia_set.fs
+|   |       |   |           |       lighting.fs
+|   |       |   |           |       lighting.vs
+|   |       |   |           |       lighting_instancing.vs
+|   |       |   |           |       mask.fs
+|   |       |   |           |       outline.fs
+|   |       |   |           |       palette_switch.fs
+|   |       |   |           |       pixelizer.fs
+|   |       |   |           |       posterization.fs
+|   |       |   |           |       predator.fs
+|   |       |   |           |       raymarching.fs
+|   |       |   |           |       reload.fs
+|   |       |   |           |       scanlines.fs
+|   |       |   |           |       sobel.fs
+|   |       |   |           |       spotlight.fs
+|   |       |   |           |       swirl.fs
+|   |       |   |           |       wave.fs
+|   |       |   |           |       write_depth.fs
+|   |       |   |           |       
+|   |       |   |           +---glsl120
+|   |       |   |           |       base.fs
+|   |       |   |           |       base.vs
+|   |       |   |           |       bloom.fs
+|   |       |   |           |       blur.fs
+|   |       |   |           |       cross_hatching.fs
+|   |       |   |           |       cross_stitching.fs
+|   |       |   |           |       distortion.fs
+|   |       |   |           |       dream_vision.fs
+|   |       |   |           |       fisheye.fs
+|   |       |   |           |       fog.fs
+|   |       |   |           |       grayscale.fs
+|   |       |   |           |       lighting.fs
+|   |       |   |           |       lighting.vs
+|   |       |   |           |       palette_switch.fs
+|   |       |   |           |       pixelizer.fs
+|   |       |   |           |       posterization.fs
+|   |       |   |           |       predator.fs
+|   |       |   |           |       scanlines.fs
+|   |       |   |           |       sobel.fs
+|   |       |   |           |       swirl.fs
+|   |       |   |           |       
+|   |       |   |           \---glsl330
+|   |       |   |                   base.fs
+|   |       |   |                   base.vs
+|   |       |   |                   bloom.fs
+|   |       |   |                   blur.fs
+|   |       |   |                   color_mix.fs
+|   |       |   |                   cross_hatching.fs
+|   |       |   |                   cross_stitching.fs
+|   |       |   |                   cubes_panning.fs
+|   |       |   |                   depth.fs
+|   |       |   |                   distortion.fs
+|   |       |   |                   dream_vision.fs
+|   |       |   |                   eratosthenes.fs
+|   |       |   |                   fisheye.fs
+|   |       |   |                   fog.fs
+|   |       |   |                   grayscale.fs
+|   |       |   |                   hybrid_raster.fs
+|   |       |   |                   hybrid_raymarch.fs
+|   |       |   |                   julia_set.fs
+|   |       |   |                   lighting.fs
+|   |       |   |                   lighting.vs
+|   |       |   |                   lighting_instancing.vs
+|   |       |   |                   mask.fs
+|   |       |   |                   outline.fs
+|   |       |   |                   overdraw.fs
+|   |       |   |                   palette_switch.fs
+|   |       |   |                   pixelizer.fs
+|   |       |   |                   posterization.fs
+|   |       |   |                   predator.fs
+|   |       |   |                   raymarching.fs
+|   |       |   |                   reload.fs
+|   |       |   |                   scanlines.fs
+|   |       |   |                   sobel.fs
+|   |       |   |                   spotlight.fs
+|   |       |   |                   swirl.fs
+|   |       |   |                   wave.fs
+|   |       |   |                   write_depth.fs
+|   |       |   |                   
+|   |       |   +---shapes
+|   |       |   |   |   raygui.h
+|   |       |   |   |   reasings.h
+|   |       |   |   |   shapes_basic_shapes.c
+|   |       |   |   |   shapes_basic_shapes.png
+|   |       |   |   |   shapes_bouncing_ball.c
+|   |       |   |   |   shapes_bouncing_ball.png
+|   |       |   |   |   shapes_collision_area.c
+|   |       |   |   |   shapes_collision_area.png
+|   |       |   |   |   shapes_colors_palette.c
+|   |       |   |   |   shapes_colors_palette.png
+|   |       |   |   |   shapes_draw_circle_sector.c
+|   |       |   |   |   shapes_draw_circle_sector.png
+|   |       |   |   |   shapes_draw_rectangle_rounded.c
+|   |       |   |   |   shapes_draw_rectangle_rounded.png
+|   |       |   |   |   shapes_draw_ring.c
+|   |       |   |   |   shapes_draw_ring.png
+|   |       |   |   |   shapes_easings_ball_anim.c
+|   |       |   |   |   shapes_easings_ball_anim.png
+|   |       |   |   |   shapes_easings_box_anim.c
+|   |       |   |   |   shapes_easings_box_anim.png
+|   |       |   |   |   shapes_easings_rectangle_array.c
+|   |       |   |   |   shapes_easings_rectangle_array.png
+|   |       |   |   |   shapes_following_eyes.c
+|   |       |   |   |   shapes_following_eyes.png
+|   |       |   |   |   shapes_lines_bezier.c
+|   |       |   |   |   shapes_lines_bezier.png
+|   |       |   |   |   shapes_logo_raylib.c
+|   |       |   |   |   shapes_logo_raylib.png
+|   |       |   |   |   shapes_logo_raylib_anim.c
+|   |       |   |   |   shapes_logo_raylib_anim.png
+|   |       |   |   |   shapes_rectangle_scaling.c
+|   |       |   |   |   shapes_rectangle_scaling.png
+|   |       |   |   |   shapes_top_down_lights.c
+|   |       |   |   |   shapes_top_down_lights.png
+|   |       |   |   |   
+|   |       |   |   \---resources
+|   |       |   |           .gitkeep
+|   |       |   |           
+|   |       |   +---text
+|   |       |   |   |   text_codepoints_loading.c
+|   |       |   |   |   text_codepoints_loading.png
+|   |       |   |   |   text_draw_3d.c
+|   |       |   |   |   text_draw_3d.png
+|   |       |   |   |   text_font_filters.c
+|   |       |   |   |   text_font_filters.png
+|   |       |   |   |   text_font_loading.c
+|   |       |   |   |   text_font_loading.png
+|   |       |   |   |   text_font_sdf.c
+|   |       |   |   |   text_font_sdf.png
+|   |       |   |   |   text_font_spritefont.c
+|   |       |   |   |   text_font_spritefont.png
+|   |       |   |   |   text_format_text.c
+|   |       |   |   |   text_format_text.png
+|   |       |   |   |   text_input_box.c
+|   |       |   |   |   text_input_box.png
+|   |       |   |   |   text_raylib_fonts.c
+|   |       |   |   |   text_raylib_fonts.png
+|   |       |   |   |   text_rectangle_bounds.c
+|   |       |   |   |   text_rectangle_bounds.png
+|   |       |   |   |   text_unicode.c
+|   |       |   |   |   text_unicode.png
+|   |       |   |   |   text_writing_anim.c
+|   |       |   |   |   text_writing_anim.png
+|   |       |   |   |   
+|   |       |   |   \---resources
+|   |       |   |       |   anonymous_pro_bold.ttf
+|   |       |   |       |   custom_alagard.png
+|   |       |   |       |   custom_jupiter_crash.png
+|   |       |   |       |   custom_mecha.png
+|   |       |   |       |   dejavu.fnt
+|   |       |   |       |   dejavu.png
+|   |       |   |       |   DotGothic16-Regular.ttf
+|   |       |   |       |   DotGothic16-Regular_OFL.txt
+|   |       |   |       |   KAISG.ttf
+|   |       |   |       |   LICENSE.md
+|   |       |   |       |   noto_cjk.fnt
+|   |       |   |       |   noto_cjk.png
+|   |       |   |       |   pixantiqua.fnt
+|   |       |   |       |   pixantiqua.png
+|   |       |   |       |   pixantiqua.ttf
+|   |       |   |       |   symbola.fnt
+|   |       |   |       |   symbola.png
+|   |       |   |       |   
+|   |       |   |       +---fonts
+|   |       |   |       |       alagard.png
+|   |       |   |       |       alpha_beta.png
+|   |       |   |       |       jupiter_crash.png
+|   |       |   |       |       mecha.png
+|   |       |   |       |       pixantiqua.png
+|   |       |   |       |       pixelplay.png
+|   |       |   |       |       romulus.png
+|   |       |   |       |       setback.png
+|   |       |   |       |       
+|   |       |   |       \---shaders
+|   |       |   |           +---glsl100
+|   |       |   |           |       alpha_discard.fs
+|   |       |   |           |       sdf.fs
+|   |       |   |           |       
+|   |       |   |           \---glsl330
+|   |       |   |                   alpha_discard.fs
+|   |       |   |                   sdf.fs
+|   |       |   |                   
+|   |       |   \---textures
+|   |       |       |   textures_background_scrolling.c
+|   |       |       |   textures_background_scrolling.png
+|   |       |       |   textures_blend_modes.c
+|   |       |       |   textures_blend_modes.png
+|   |       |       |   textures_bunnymark.c
+|   |       |       |   textures_bunnymark.png
+|   |       |       |   textures_draw_tiled.c
+|   |       |       |   textures_draw_tiled.png
+|   |       |       |   textures_fog_of_war.c
+|   |       |       |   textures_fog_of_war.png
+|   |       |       |   textures_gif_player.c
+|   |       |       |   textures_gif_player.png
+|   |       |       |   textures_image_drawing.c
+|   |       |       |   textures_image_drawing.png
+|   |       |       |   textures_image_generation.c
+|   |       |       |   textures_image_generation.png
+|   |       |       |   textures_image_loading.c
+|   |       |       |   textures_image_loading.png
+|   |       |       |   textures_image_processing.c
+|   |       |       |   textures_image_processing.png
+|   |       |       |   textures_image_text.c
+|   |       |       |   textures_image_text.png
+|   |       |       |   textures_logo_raylib.c
+|   |       |       |   textures_logo_raylib.png
+|   |       |       |   textures_mouse_painting.c
+|   |       |       |   textures_mouse_painting.png
+|   |       |       |   textures_npatch_drawing.c
+|   |       |       |   textures_npatch_drawing.png
+|   |       |       |   textures_particles_blending.c
+|   |       |       |   textures_particles_blending.png
+|   |       |       |   textures_polygon.c
+|   |       |       |   textures_polygon.png
+|   |       |       |   textures_raw_data.c
+|   |       |       |   textures_raw_data.png
+|   |       |       |   textures_sprite_anim.c
+|   |       |       |   textures_sprite_anim.png
+|   |       |       |   textures_sprite_button.c
+|   |       |       |   textures_sprite_button.png
+|   |       |       |   textures_sprite_explosion.c
+|   |       |       |   textures_sprite_explosion.png
+|   |       |       |   textures_srcrec_dstrec.c
+|   |       |       |   textures_srcrec_dstrec.png
+|   |       |       |   textures_textured_curve.c
+|   |       |       |   textures_textured_curve.png
+|   |       |       |   textures_to_image.c
+|   |       |       |   textures_to_image.png
+|   |       |       |   
+|   |       |       \---resources
+|   |       |               boom.wav
+|   |       |               button.png
+|   |       |               buttonfx.wav
+|   |       |               cat.png
+|   |       |               custom_jupiter_crash.png
+|   |       |               cyberpunk_street_background.png
+|   |       |               cyberpunk_street_foreground.png
+|   |       |               cyberpunk_street_midground.png
+|   |       |               explosion.png
+|   |       |               fudesumi.png
+|   |       |               fudesumi.raw
+|   |       |               KAISG.ttf
+|   |       |               LICENSE.md
+|   |       |               ninepatch_button.png
+|   |       |               parrots.png
+|   |       |               patterns.png
+|   |       |               raylib_logo.png
+|   |       |               road.png
+|   |       |               scarfy.png
+|   |       |               scarfy_run.gif
+|   |       |               spark_flame.png
+|   |       |               wabbit_alpha.png
+|   |       |               
+|   |       +---logo
+|   |       |       raylib.ico
+|   |       |       raylib_128x128.png
+|   |       |       raylib_144x144.png
+|   |       |       raylib_16x16.png
+|   |       |       raylib_180x180.png
+|   |       |       raylib_24x24.png
+|   |       |       raylib_256x256.png
+|   |       |       raylib_32x32.png
+|   |       |       raylib_36x36.png
+|   |       |       raylib_48x48.png
+|   |       |       raylib_512x512.png
+|   |       |       raylib_64x64.png
+|   |       |       raylib_72x72.png
+|   |       |       raylib_96x96.png
+|   |       |       raylib_logo_animation.gif
+|   |       |       
+|   |       +---parser
+|   |       |   |   LICENSE
+|   |       |   |   Makefile
+|   |       |   |   raylib_parser.c
+|   |       |   |   README.md
+|   |       |   |   
+|   |       |   \---output
+|   |       |           raylib_api.json
+|   |       |           raylib_api.lua
+|   |       |           raylib_api.txt
+|   |       |           raylib_api.xml
+|   |       |           
+|   |       +---projects
+|   |       |   |   README.md
+|   |       |   |   
+|   |       |   +---4coder
+|   |       |   |       main.c
+|   |       |   |       Makefile
+|   |       |   |       Makefile.Android
+|   |       |   |       project.4coder
+|   |       |   |       
+|   |       |   +---Builder
+|   |       |   |   |   meson.build
+|   |       |   |   |   README.md
+|   |       |   |   |   
+|   |       |   |   \---examples
+|   |       |   |           meson.build
+|   |       |   |           README.md
+|   |       |   |           
+|   |       |   +---CMake
+|   |       |   |       CMakeLists.txt
+|   |       |   |       core_basic_window.c
+|   |       |   |       README.md
+|   |       |   |       
+|   |       |   +---CodeBlocks
+|   |       |   |       compiler_settings.png
+|   |       |   |       core_basic_window.c
+|   |       |   |       core_basic_window.cbp
+|   |       |   |       README.md
+|   |       |   |       
+|   |       |   +---Geany
+|   |       |   |       core_basic_window.c
+|   |       |   |       raylib.c.tags
+|   |       |   |       raylib_compile_execute.bat
+|   |       |   |       raylib_compile_sources.bat
+|   |       |   |       raylib_project.geany
+|   |       |   |       
+|   |       |   +---Notepad++
+|   |       |   |   |   npes_saved_mingw.txt
+|   |       |   |   |   npes_saved_tcc.txt
+|   |       |   |   |   npes_saved_w64devkit.txt
+|   |       |   |   |   npes_saved_zig.txt
+|   |       |   |   |   README.md
+|   |       |   |   |   
+|   |       |   |   \---raylib_npp_parser
+|   |       |   |           raylib_npp.xml
+|   |       |   |           raylib_npp_parser.c
+|   |       |   |           raylib_to_parse.h
+|   |       |   |           
+|   |       |   +---scripts
+|   |       |   |       build-linux.sh
+|   |       |   |       build-osx.sh
+|   |       |   |       build-rpi.sh
+|   |       |   |       build-windows.bat
+|   |       |   |       core_basic_window.c
+|   |       |   |       README.md
+|   |       |   |       
+|   |       |   +---SublimeText
+|   |       |   |       raylib.sublime-build
+|   |       |   |       raylib.sublime-project
+|   |       |   |       README.md
+|   |       |   |       
+|   |       |   +---VS2019-Android
+|   |       |   |   |   raylib_android.sln
+|   |       |   |   |   
+|   |       |   |   \---raylib_android
+|   |       |   |       +---raylib_android.NativeActivity
+|   |       |   |       |       android_native_app_glue.c
+|   |       |   |       |       android_native_app_glue.h
+|   |       |   |       |       main.c
+|   |       |   |       |       raylib_android.NativeActivity.vcxproj
+|   |       |   |       |       raylib_android.NativeActivity.vcxproj.filters
+|   |       |   |       |       raylib_android.NativeActivity.vcxproj.user
+|   |       |   |       |       
+|   |       |   |       \---raylib_android.Packaging
+|   |       |   |           |   AndroidManifest.xml
+|   |       |   |           |   build.xml
+|   |       |   |           |   project.properties
+|   |       |   |           |   raylib_android.Packaging.androidproj
+|   |       |   |           |   
+|   |       |   |           \---res
+|   |       |   |               \---values
+|   |       |   |                       strings.xml
+|   |       |   |                       
+|   |       |   +---VS2022
+|   |       |   |   |   raylib.sln
+|   |       |   |   |   
+|   |       |   |   +---examples
+|   |       |   |   |       audio_module_playing.vcxproj
+|   |       |   |   |       audio_module_playing.vcxproj.user
+|   |       |   |   |       audio_music_stream.vcxproj
+|   |       |   |   |       audio_music_stream.vcxproj.user
+|   |       |   |   |       audio_raw_stream.vcxproj
+|   |       |   |   |       audio_raw_stream.vcxproj.user
+|   |       |   |   |       audio_sound_loading.vcxproj
+|   |       |   |   |       audio_sound_loading.vcxproj.user
+|   |       |   |   |       audio_stream_effects.vcxproj
+|   |       |   |   |       audio_stream_effects.vcxproj.user
+|   |       |   |   |       core_2d_camera.vcxproj
+|   |       |   |   |       core_2d_camera.vcxproj.user
+|   |       |   |   |       core_2d_camera_mouse_zoom.vcxproj
+|   |       |   |   |       core_2d_camera_mouse_zoom.vcxproj.user
+|   |       |   |   |       core_2d_camera_platformer.vcxproj
+|   |       |   |   |       core_2d_camera_platformer.vcxproj.user
+|   |       |   |   |       core_3d_camera_first_person.vcxproj
+|   |       |   |   |       core_3d_camera_first_person.vcxproj.user
+|   |       |   |   |       core_3d_camera_free.vcxproj
+|   |       |   |   |       core_3d_camera_free.vcxproj.user
+|   |       |   |   |       core_3d_camera_mode.vcxproj
+|   |       |   |   |       core_3d_camera_mode.vcxproj.user
+|   |       |   |   |       core_3d_picking.vcxproj
+|   |       |   |   |       core_3d_picking.vcxproj.user
+|   |       |   |   |       core_basic_screen_manager.vcxproj
+|   |       |   |   |       core_basic_screen_manager.vcxproj.user
+|   |       |   |   |       core_basic_window.vcxproj
+|   |       |   |   |       core_basic_window.vcxproj.user
+|   |       |   |   |       core_custom_frame_control.vcxproj
+|   |       |   |   |       core_custom_frame_control.vcxproj.user
+|   |       |   |   |       core_custom_logging.vcxproj
+|   |       |   |   |       core_custom_logging.vcxproj.user
+|   |       |   |   |       core_drop_files.vcxproj
+|   |       |   |   |       core_drop_files.vcxproj.user
+|   |       |   |   |       core_input_gamepad.vcxproj
+|   |       |   |   |       core_input_gamepad.vcxproj.user
+|   |       |   |   |       core_input_gestures.vcxproj
+|   |       |   |   |       core_input_gestures.vcxproj.user
+|   |       |   |   |       core_input_keys.vcxproj
+|   |       |   |   |       core_input_keys.vcxproj.user
+|   |       |   |   |       core_input_mouse.vcxproj
+|   |       |   |   |       core_input_mouse.vcxproj.user
+|   |       |   |   |       core_input_mouse_wheel.vcxproj
+|   |       |   |   |       core_input_multitouch.vcxproj
+|   |       |   |   |       core_input_multitouch.vcxproj.user
+|   |       |   |   |       core_loading_thread.vcxproj
+|   |       |   |   |       core_loading_thread.vcxproj.user
+|   |       |   |   |       core_random_values.vcxproj
+|   |       |   |   |       core_random_values.vcxproj.user
+|   |       |   |   |       core_scissor_test.vcxproj
+|   |       |   |   |       core_scissor_test.vcxproj.user
+|   |       |   |   |       core_split_screen.vcxproj
+|   |       |   |   |       core_split_screen.vcxproj.user
+|   |       |   |   |       core_storage_values.vcxproj
+|   |       |   |   |       core_storage_values.vcxproj.user
+|   |       |   |   |       core_vr_simulator.vcxproj
+|   |       |   |   |       core_vr_simulator.vcxproj.user
+|   |       |   |   |       core_window_flags.vcxproj
+|   |       |   |   |       core_window_flags.vcxproj.user
+|   |       |   |   |       core_window_letterbox.vcxproj
+|   |       |   |   |       core_window_letterbox.vcxproj.user
+|   |       |   |   |       core_window_should_close.vcxproj
+|   |       |   |   |       core_window_should_close.vcxproj.user
+|   |       |   |   |       core_world_screen.vcxproj
+|   |       |   |   |       core_world_screen.vcxproj.user
+|   |       |   |   |       easings_testbed.vcxproj
+|   |       |   |   |       easings_testbed.vcxproj.user
+|   |       |   |   |       embedded_files_loading.vcxproj
+|   |       |   |   |       embedded_files_loading.vcxproj.user
+|   |       |   |   |       models_animation.vcxproj
+|   |       |   |   |       models_animation.vcxproj.user
+|   |       |   |   |       models_billboard.vcxproj
+|   |       |   |   |       models_billboard.vcxproj.user
+|   |       |   |   |       models_box_collisions.vcxproj
+|   |       |   |   |       models_box_collisions.vcxproj.user
+|   |       |   |   |       models_cubicmap.vcxproj
+|   |       |   |   |       models_cubicmap.vcxproj.user
+|   |       |   |   |       models_first_person_maze.vcxproj
+|   |       |   |   |       models_first_person_maze.vcxproj.user
+|   |       |   |   |       models_geometric_shapes.vcxproj
+|   |       |   |   |       models_geometric_shapes.vcxproj.user
+|   |       |   |   |       models_heightmap.vcxproj
+|   |       |   |   |       models_heightmap.vcxproj.user
+|   |       |   |   |       models_loading.vcxproj
+|   |       |   |   |       models_loading.vcxproj.user
+|   |       |   |   |       models_loading_gltf.vcxproj
+|   |       |   |   |       models_loading_gltf.vcxproj.user
+|   |       |   |   |       models_loading_m3d.vcxproj
+|   |       |   |   |       models_loading_m3d.vcxproj.user
+|   |       |   |   |       models_loading_vox.vcxproj
+|   |       |   |   |       models_loading_vox.vcxproj.user
+|   |       |   |   |       models_mesh_generation.vcxproj
+|   |       |   |   |       models_mesh_generation.vcxproj.user
+|   |       |   |   |       models_mesh_picking.vcxproj
+|   |       |   |   |       models_mesh_picking.vcxproj.user
+|   |       |   |   |       models_orthographic_projection.vcxproj
+|   |       |   |   |       models_orthographic_projection.vcxproj.user
+|   |       |   |   |       models_rlgl_solar_system.vcxproj
+|   |       |   |   |       models_rlgl_solar_system.vcxproj.user
+|   |       |   |   |       models_skybox.vcxproj
+|   |       |   |   |       models_skybox.vcxproj.user
+|   |       |   |   |       models_waving_cubes.vcxproj
+|   |       |   |   |       models_waving_cubes.vcxproj.user
+|   |       |   |   |       models_yaw_pitch_roll.vcxproj
+|   |       |   |   |       models_yaw_pitch_roll.vcxproj.user
+|   |       |   |   |       rlgl_compute_shaders.vcxproj
+|   |       |   |   |       rlgl_compute_shaders.vcxproj.user
+|   |       |   |   |       rlgl_standalone.vcxproj
+|   |       |   |   |       rlgl_standalone.vcxproj.user
+|   |       |   |   |       shaders_basic_lighting.vcxproj
+|   |       |   |   |       shaders_basic_lighting.vcxproj.user
+|   |       |   |   |       shaders_custom_uniform.vcxproj
+|   |       |   |   |       shaders_custom_uniform.vcxproj.user
+|   |       |   |   |       shaders_eratosthenes.vcxproj
+|   |       |   |   |       shaders_eratosthenes.vcxproj.user
+|   |       |   |   |       shaders_fog.vcxproj
+|   |       |   |   |       shaders_fog.vcxproj.user
+|   |       |   |   |       shaders_hot_reloading.vcxproj
+|   |       |   |   |       shaders_hot_reloading.vcxproj.user
+|   |       |   |   |       shaders_hybrid_render.vcxproj
+|   |       |   |   |       shaders_hybrid_render.vcxproj.user
+|   |       |   |   |       shaders_julia_set.vcxproj
+|   |       |   |   |       shaders_julia_set.vcxproj.user
+|   |       |   |   |       shaders_mesh_instancing.vcxproj
+|   |       |   |   |       shaders_mesh_instancing.vcxproj.user
+|   |       |   |   |       shaders_model_shader.vcxproj
+|   |       |   |   |       shaders_model_shader.vcxproj.user
+|   |       |   |   |       shaders_multi_sample2d.vcxproj
+|   |       |   |   |       shaders_multi_sample2d.vcxproj.user
+|   |       |   |   |       shaders_palette_switch.vcxproj
+|   |       |   |   |       shaders_palette_switch.vcxproj.user
+|   |       |   |   |       shaders_postprocessing.vcxproj
+|   |       |   |   |       shaders_postprocessing.vcxproj.user
+|   |       |   |   |       shaders_raymarching.vcxproj
+|   |       |   |   |       shaders_raymarching.vcxproj.user
+|   |       |   |   |       shaders_shapes_textures.vcxproj
+|   |       |   |   |       shaders_shapes_textures.vcxproj.user
+|   |       |   |   |       shaders_simple_mask.vcxproj
+|   |       |   |   |       shaders_simple_mask.vcxproj.user
+|   |       |   |   |       shaders_spotlight.vcxproj
+|   |       |   |   |       shaders_spotlight.vcxproj.user
+|   |       |   |   |       shaders_texture_drawing.vcxproj
+|   |       |   |   |       shaders_texture_drawing.vcxproj.user
+|   |       |   |   |       shaders_texture_waves.vcxproj
+|   |       |   |   |       shaders_texture_waves.vcxproj.user
+|   |       |   |   |       shaders_write_depth.vcxproj
+|   |       |   |   |       shaders_write_depth.vcxproj.user
+|   |       |   |   |       shapes_basic_shapes.vcxproj
+|   |       |   |   |       shapes_basic_shapes.vcxproj.user
+|   |       |   |   |       shapes_bouncing_ball.vcxproj
+|   |       |   |   |       shapes_bouncing_ball.vcxproj.user
+|   |       |   |   |       shapes_collision_area.vcxproj
+|   |       |   |   |       shapes_collision_area.vcxproj.user
+|   |       |   |   |       shapes_colors_palette.vcxproj
+|   |       |   |   |       shapes_colors_palette.vcxproj.user
+|   |       |   |   |       shapes_draw_circle_sector.vcxproj
+|   |       |   |   |       shapes_draw_circle_sector.vcxproj.user
+|   |       |   |   |       shapes_draw_rectangle_rounded.vcxproj
+|   |       |   |   |       shapes_draw_rectangle_rounded.vcxproj.user
+|   |       |   |   |       shapes_draw_ring.vcxproj
+|   |       |   |   |       shapes_draw_ring.vcxproj.user
+|   |       |   |   |       shapes_easings_ball_anim.vcxproj
+|   |       |   |   |       shapes_easings_ball_anim.vcxproj.user
+|   |       |   |   |       shapes_easings_box_anim.vcxproj
+|   |       |   |   |       shapes_easings_box_anim.vcxproj.user
+|   |       |   |   |       shapes_easings_rectangle_array.vcxproj
+|   |       |   |   |       shapes_easings_rectangle_array.vcxproj.user
+|   |       |   |   |       shapes_following_eyes.vcxproj
+|   |       |   |   |       shapes_following_eyes.vcxproj.user
+|   |       |   |   |       shapes_lines_bezier.vcxproj
+|   |       |   |   |       shapes_lines_bezier.vcxproj.user
+|   |       |   |   |       shapes_logo_raylib.vcxproj
+|   |       |   |   |       shapes_logo_raylib.vcxproj.user
+|   |       |   |   |       shapes_logo_raylib_anim.vcxproj
+|   |       |   |   |       shapes_logo_raylib_anim.vcxproj.user
+|   |       |   |   |       shapes_rectangle_scaling.vcxproj
+|   |       |   |   |       shapes_rectangle_scaling.vcxproj.user
+|   |       |   |   |       textures_background_scrolling.vcxproj
+|   |       |   |   |       textures_background_scrolling.vcxproj.user
+|   |       |   |   |       textures_blend_modes.vcxproj
+|   |       |   |   |       textures_blend_modes.vcxproj.user
+|   |       |   |   |       textures_bunnymark.vcxproj
+|   |       |   |   |       textures_bunnymark.vcxproj.user
+|   |       |   |   |       textures_draw_tiled.vcxproj
+|   |       |   |   |       textures_draw_tiled.vcxproj.user
+|   |       |   |   |       textures_fog_of_war.vcxproj
+|   |       |   |   |       textures_fog_of_war.vcxproj.user
+|   |       |   |   |       textures_gif_player.vcxproj
+|   |       |   |   |       textures_gif_player.vcxproj.user
+|   |       |   |   |       textures_image_drawing.vcxproj
+|   |       |   |   |       textures_image_drawing.vcxproj.user
+|   |       |   |   |       textures_image_generation.vcxproj
+|   |       |   |   |       textures_image_generation.vcxproj.user
+|   |       |   |   |       textures_image_loading.vcxproj
+|   |       |   |   |       textures_image_loading.vcxproj.user
+|   |       |   |   |       textures_image_processing.vcxproj
+|   |       |   |   |       textures_image_processing.vcxproj.user
+|   |       |   |   |       textures_image_text.vcxproj
+|   |       |   |   |       textures_image_text.vcxproj.user
+|   |       |   |   |       textures_logo_raylib.vcxproj
+|   |       |   |   |       textures_logo_raylib.vcxproj.user
+|   |       |   |   |       textures_mouse_painting.vcxproj
+|   |       |   |   |       textures_mouse_painting.vcxproj.user
+|   |       |   |   |       textures_npatch_drawing.vcxproj
+|   |       |   |   |       textures_npatch_drawing.vcxproj.user
+|   |       |   |   |       textures_particles_blending.vcxproj
+|   |       |   |   |       textures_particles_blending.vcxproj.user
+|   |       |   |   |       textures_polygon.vcxproj
+|   |       |   |   |       textures_polygon.vcxproj.user
+|   |       |   |   |       textures_raw_data.vcxproj
+|   |       |   |   |       textures_raw_data.vcxproj.user
+|   |       |   |   |       textures_sprite_anim.vcxproj
+|   |       |   |   |       textures_sprite_anim.vcxproj.user
+|   |       |   |   |       textures_sprite_button.vcxproj
+|   |       |   |   |       textures_sprite_button.vcxproj.user
+|   |       |   |   |       textures_sprite_explosion.vcxproj
+|   |       |   |   |       textures_sprite_explosion.vcxproj.user
+|   |       |   |   |       textures_srcrec_dstrec.vcxproj
+|   |       |   |   |       textures_srcrec_dstrec.vcxproj.user
+|   |       |   |   |       textures_textured_curve.vcxproj
+|   |       |   |   |       textures_textured_curve.vcxproj.user
+|   |       |   |   |       textures_to_image.vcxproj
+|   |       |   |   |       textures_to_image.vcxproj.user
+|   |       |   |   |       text_codepoints_loading.vcxproj
+|   |       |   |   |       text_codepoints_loading.vcxproj.user
+|   |       |   |   |       text_draw_3d.vcxproj
+|   |       |   |   |       text_draw_3d.vcxproj.user
+|   |       |   |   |       text_font_filters.vcxproj
+|   |       |   |   |       text_font_filters.vcxproj.user
+|   |       |   |   |       text_font_loading.vcxproj
+|   |       |   |   |       text_font_loading.vcxproj.user
+|   |       |   |   |       text_font_sdf.vcxproj
+|   |       |   |   |       text_font_sdf.vcxproj.user
+|   |       |   |   |       text_font_spritefont.vcxproj
+|   |       |   |   |       text_font_spritefont.vcxproj.user
+|   |       |   |   |       text_format_text.vcxproj
+|   |       |   |   |       text_format_text.vcxproj.user
+|   |       |   |   |       text_input_box.vcxproj
+|   |       |   |   |       text_input_box.vcxproj.user
+|   |       |   |   |       text_raylib_fonts.vcxproj
+|   |       |   |   |       text_raylib_fonts.vcxproj.user
+|   |       |   |   |       text_rectangle_bounds.vcxproj
+|   |       |   |   |       text_rectangle_bounds.vcxproj.user
+|   |       |   |   |       text_unicode.vcxproj
+|   |       |   |   |       text_unicode.vcxproj.user
+|   |       |   |   |       text_writing_anim.vcxproj
+|   |       |   |   |       text_writing_anim.vcxproj.user
+|   |       |   |   |       
+|   |       |   |   \---raylib
+|   |       |   |           raylib.vcxproj
+|   |       |   |           raylib.vcxproj.user
+|   |       |   |           
+|   |       |   \---VSCode
+|   |       |       |   main.c
+|   |       |       |   main.code-workspace
+|   |       |       |   Makefile
+|   |       |       |   Makefile.Android
+|   |       |       |   
+|   |       |       +---.vscode
+|   |       |       |       c_cpp_properties.json
+|   |       |       |       launch.json
+|   |       |       |       settings.json
+|   |       |       |       tasks.json
+|   |       |       |       
+|   |       |       \---resources
+|   |       |               LICENSE
+|   |       |               
+|   |       \---src
+|   |           |   build.zig
+|   |           |   CMakeLists.txt
+|   |           |   config.h
+|   |           |   Makefile
+|   |           |   minshell.html
+|   |           |   raudio.c
+|   |           |   raylib.dll.rc
+|   |           |   raylib.dll.rc.data
+|   |           |   raylib.h
+|   |           |   raylib.ico
+|   |           |   raylib.rc
+|   |           |   raylib.rc.data
+|   |           |   raymath.h
+|   |           |   rcamera.h
+|   |           |   rcore.c
+|   |           |   rgestures.h
+|   |           |   rglfw.c
+|   |           |   rlgl.h
+|   |           |   rmodels.c
+|   |           |   rshapes.c
+|   |           |   rtext.c
+|   |           |   rtextures.c
+|   |           |   shell.html
+|   |           |   utils.c
+|   |           |   utils.h
+|   |           |   
+|   |           \---external
+|   |               |   cgltf.h
+|   |               |   dirent.h
+|   |               |   dr_flac.h
+|   |               |   dr_mp3.h
+|   |               |   dr_wav.h
+|   |               |   glad.h
+|   |               |   glad_gles2.h
+|   |               |   jar_mod.h
+|   |               |   jar_xm.h
+|   |               |   m3d.h
+|   |               |   miniaudio.h
+|   |               |   msf_gif.h
+|   |               |   par_shapes.h
+|   |               |   qoa.h
+|   |               |   qoaplay.c
+|   |               |   qoi.h
+|   |               |   rl_gputex.h
+|   |               |   sdefl.h
+|   |               |   sinfl.h
+|   |               |   stb_image.h
+|   |               |   stb_image_resize.h
+|   |               |   stb_image_write.h
+|   |               |   stb_perlin.h
+|   |               |   stb_rect_pack.h
+|   |               |   stb_truetype.h
+|   |               |   stb_vorbis.c
+|   |               |   tinyobj_loader_c.h
+|   |               |   vox_loader.h
+|   |               |   
+|   |               \---glfw
+|   |                   |   .mailmap
+|   |                   |   CMakeLists.txt
+|   |                   |   CONTRIBUTORS.md
+|   |                   |   LICENSE.md
+|   |                   |   README.md
+|   |                   |   
+|   |                   +---CMake
+|   |                   |   |   cmake_uninstall.cmake.in
+|   |                   |   |   GenerateMappings.cmake
+|   |                   |   |   glfw3.pc.in
+|   |                   |   |   glfw3Config.cmake.in
+|   |                   |   |   i686-w64-mingw32-clang.cmake
+|   |                   |   |   i686-w64-mingw32.cmake
+|   |                   |   |   Info.plist.in
+|   |                   |   |   x86_64-w64-mingw32-clang.cmake
+|   |                   |   |   x86_64-w64-mingw32.cmake
+|   |                   |   |   
+|   |                   |   \---modules
+|   |                   |           FindEpollShim.cmake
+|   |                   |           FindOSMesa.cmake
+|   |                   |           
+|   |                   +---deps
+|   |                   |   |   getopt.c
+|   |                   |   |   getopt.h
+|   |                   |   |   
+|   |                   |   +---glad
+|   |                   |   |       gl.h
+|   |                   |   |       gles2.h
+|   |                   |   |       vulkan.h
+|   |                   |   |       
+|   |                   |   +---mingw
+|   |                   |   |       dinput.h
+|   |                   |   |       xinput.h
+|   |                   |   |       _mingw_dxhelper.h
+|   |                   |   |       
+|   |                   |   \---vs2008
+|   |                   |           stdint.h
+|   |                   |           
+|   |                   +---include
+|   |                   |   \---GLFW
+|   |                   |           glfw3.h
+|   |                   |           glfw3native.h
+|   |                   |           
+|   |                   \---src
+|   |                           CMakeLists.txt
+|   |                           cocoa_init.m
+|   |                           cocoa_joystick.h
+|   |                           cocoa_joystick.m
+|   |                           cocoa_monitor.m
+|   |                           cocoa_platform.h
+|   |                           cocoa_time.c
+|   |                           cocoa_time.h
+|   |                           cocoa_window.m
+|   |                           context.c
+|   |                           egl_context.c
+|   |                           glfw.rc.in
+|   |                           glx_context.c
+|   |                           init.c
+|   |                           input.c
+|   |                           internal.h
+|   |                           linux_joystick.c
+|   |                           linux_joystick.h
+|   |                           mappings.h
+|   |                           mappings.h.in
+|   |                           monitor.c
+|   |                           nsgl_context.m
+|   |                           null_init.c
+|   |                           null_joystick.c
+|   |                           null_joystick.h
+|   |                           null_monitor.c
+|   |                           null_platform.h
+|   |                           null_window.c
+|   |                           osmesa_context.c
+|   |                           platform.c
+|   |                           platform.h
+|   |                           posix_module.c
+|   |                           posix_poll.c
+|   |                           posix_poll.h
+|   |                           posix_thread.c
+|   |                           posix_thread.h
+|   |                           posix_time.c
+|   |                           posix_time.h
+|   |                           vulkan.c
+|   |                           wgl_context.c
+|   |                           win32_init.c
+|   |                           win32_joystick.c
+|   |                           win32_joystick.h
+|   |                           win32_module.c
+|   |                           win32_monitor.c
+|   |                           win32_platform.h
+|   |                           win32_thread.c
+|   |                           win32_thread.h
+|   |                           win32_time.c
+|   |                           win32_time.h
+|   |                           win32_window.c
+|   |                           window.c
+|   |                           wl_init.c
+|   |                           wl_monitor.c
+|   |                           wl_platform.h
+|   |                           wl_window.c
+|   |                           x11_init.c
+|   |                           x11_monitor.c
+|   |                           x11_platform.h
+|   |                           x11_window.c
+|   |                           xkb_unicode.c
+|   |                           xkb_unicode.h
+|   |                           
+|   \---lib
+|       |   raylib.dll
+|       |   raylib.lib
+|       |   raylibdll.lib
+|       |   
+|       \---x64
+|           \---Debug
+|                   raylib.dll
+|                   raylib.lib
+|                   raylibdll.lib
+|                   
++---Pong
+|   |   Ball.cpp
+|   |   Ball.h
+|   |   Globals.h
+|   |   Paddle.cpp
+|   |   Paddle.h
+|   |   Pong.cpp
+|   |   Pong.h
+|   |   Pong.vcxproj
+|   |   Pong.vcxproj.filters
+|   |   Pong.vcxproj.user
+|   |   
+|   \---x64
+|       \---Debug
+|           |   Ball.obj
+|           |   Paddle.obj
+|           |   Pong.Build.CppClean.log
+|           |   Pong.dll.recipe
+|           |   Pong.lib.recipe
+|           |   Pong.log
+|           |   Pong.obj
+|           |   Pong.vcxproj.FileListAbsolute.txt
+|           |   
+|           \---Pong.tlog
+|                   CL.command.1.tlog
+|                   Cl.items.tlog
+|                   CL.read.1.tlog
+|                   CL.write.1.tlog
+|                   Lib-link.read.1.tlog
+|                   Lib-link.write.1.tlog
+|                   Lib.command.1.tlog
+|                   Pong.lastbuildstate
+|                   
++---Source
+|       CMakeConfig.h
+|       CMakeConfig.h.in
+|       main.cpp
+|       
++---TemplateSolution
+|   |   CMakeLists.txt
+|   |   CMakePresets.json
+|   |   RaylibProj.vcxproj
+|   |   RaylibProj.vcxproj.filters
+|   |   RaylibProj.vcxproj.user
+|   |   RaylibProject.sln
+|   |   
+|   +---out
+|   |   \---build
+|   |       \---x64-debug
+|   |           |   CMakeCache.txt
+|   |           |   VSInheritEnvironments.txt
+|   |           |   
+|   |           +---.cmake
+|   |           |   \---api
+|   |           |       \---v1
+|   |           |           \---query
+|   |           |               \---client-MicrosoftVS
+|   |           |                       query.json
+|   |           |                       
+|   |           \---CMakeFiles
+|   |               |   cmake.check_cache
+|   |               |   CMakeConfigureLog.yaml
+|   |               |   
+|   |               +---3.26.4-msvc4
+|   |               |   |   CMakeCCompiler.cmake
+|   |               |   |   CMakeCXXCompiler.cmake
+|   |               |   |   CMakeDetermineCompilerABI_C.bin
+|   |               |   |   CMakeDetermineCompilerABI_CXX.bin
+|   |               |   |   CMakeRCCompiler.cmake
+|   |               |   |   CMakeSystem.cmake
+|   |               |   |   
+|   |               |   +---CompilerIdC
+|   |               |   |   |   CMakeCCompilerId.c
+|   |               |   |   |   CMakeCCompilerId.exe
+|   |               |   |   |   CMakeCCompilerId.obj
+|   |               |   |   |   
+|   |               |   |   \---tmp
+|   |               |   \---CompilerIdCXX
+|   |               |       |   CMakeCXXCompilerId.cpp
+|   |               |       |   CMakeCXXCompilerId.exe
+|   |               |       |   CMakeCXXCompilerId.obj
+|   |               |       |   
+|   |               |       \---tmp
+|   |               +---CMakeScratch
+|   |               +---pkgRedirects
+|   |               \---ShowIncludes
+|   |                       foo.h
+|   |                       main.c
+|   |                       main.obj
+|   |                       
+|   \---x64
+|       \---Debug
+|           |   Core.idb
+|           |   Core.lib
+|           |   Core.pdb
+|           |   main.obj
+|           |   Pong.idb
+|           |   Pong.lib
+|           |   Pong.pdb
+|           |   Raylib4.5 Empty.exe
+|           |   Raylib4.5 Empty.exe.recipe
+|           |   RaylibProj.Build.CppClean.log
+|           |   RaylibProj.exe.recipe
+|           |   RaylibProj.log
+|           |   RaylibProj.vcxproj.FileListAbsolute.txt
+|           |   RaylibProject.Build.CppClean.log
+|           |   RaylibProject.exe
+|           |   RaylibProject.exe.recipe
+|           |   RaylibProject.ilk
+|           |   RaylibProject.pdb
+|           |   vc143.idb
+|           |   vc143.pdb
+|           |   
+|           +---Raylib4.5 Empty.tlog
+|           |       CL.command.1.tlog
+|           |       Cl.items.tlog
+|           |       CL.read.1.tlog
+|           |       CL.write.1.tlog
+|           |       link.command.1.tlog
+|           |       link.read.1.tlog
+|           |       link.write.1.tlog
+|           |       Raylib4.5 Empty.lastbuildstate
+|           |       
+|           +---RaylibProj.tlog
+|           |       CL.command.1.tlog
+|           |       Cl.items.tlog
+|           |       CL.read.1.tlog
+|           |       CL.write.1.tlog
+|           |       link.command.1.tlog
+|           |       link.read.1.tlog
+|           |       link.write.1.tlog
+|           |       RaylibProj.lastbuildstate
+|           |       
+|           \---RaylibProject.tlog
+|                   CL.command.1.tlog
+|                   Cl.items.tlog
+|                   CL.read.1.tlog
+|                   CL.write.1.tlog
+|                   link.command.1.tlog
+|                   link.read.1.tlog
+|                   link.write.1.tlog
+|                   RaylibProject.lastbuildstate
+|                   
+\---Tools
+        GenerateWin32Project.sh
+        GenerateX64Project.sh
+        MSBuild_Project_Win32.sh
+        MSBuild_Project_x64.sh
+        README.md
+        SetVisualStudioShortPath.bat
+        Utils.sh
+        
